@@ -17,7 +17,7 @@ function Details() {
               <table className="my-4">
                 <tr className="taskname">
                   <td className="tableTitle text-center" colspan="7">
-                    {elem.task + " on the date of "}
+                    {elem.task + " on "}
                     {date.getDate()}/{date.getMonth() + 1}/{date.getFullYear()}
                   </td>
                 </tr>
